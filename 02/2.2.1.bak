@@ -1,0 +1,8 @@
+#lang scheme
+
+(define (last-pair list)
+  (if (null? list)
+      (quote ())
+      (car lis)))
+
+(last-pair (list 23 73 149 34))
